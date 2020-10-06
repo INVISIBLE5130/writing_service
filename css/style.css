@@ -1,0 +1,129 @@
+body {
+    margin: 0;
+    padding: 0;
+    min-width: 100%;
+    min-height: 100vh;
+    background: white;
+    box-sizing: border-box;
+    font-family: "Circular Std", sans-serif;
+}
+
+.main-header {
+    width: 100%;
+    height: 50px;
+}
+
+.main {
+    display: flex;
+    padding: 0 10%;
+    width: inherit;
+    height: max-content;
+    align-items: center;
+    flex-direction: column;
+    background: url("../img/background.svg") no-repeat;
+    background-size: contain;
+}
+
+.main-row {
+    display: flex;
+}
+
+.main-text {
+    width: 50%;
+}
+
+.main-text-title {
+    color: #2D4163;
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 63px;
+    font-style: normal;
+}
+
+.main-text-title span {
+    color: #357FD3;
+}
+
+.main-text-description {
+    width: 100%;
+    padding: 1vh 2vh;
+    background: white;
+    box-shadow: 0 4px 28px rgba(0, 0, 0, 0.06);
+}
+
+.main-text-description-title {
+    color: #357FD3;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 61px;
+    font-style: normal;
+}
+
+.main-text-description-comment {
+    color: #2D4163;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 30px;
+    font-style: normal;
+}
+
+.main-rating {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    padding: 5% 5% 0;
+    justify-content: space-around;
+}
+
+.main-rating-block {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main-rating-block-rate {
+    display: inherit;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.main-rating-block-rate-company_name {
+    color: #22C2FC;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 30px;
+    font-style: normal;
+}
+
+.main-rating-block-rate_number {
+    margin: auto;
+    color: #0C537F;
+    font-size: 64px;
+    font-weight: 500;
+    line-height: 81px;
+    font-style: normal;
+}
+
+.main-why_us {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-why_us-title_block {
+    width: 100%;
+    height: 175px;
+    display: flex;
+    background: #1C82DB;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-why_us-title_block-title {
+    color: white;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 46px;
+    font-style: normal;
+}
