@@ -691,13 +691,12 @@ hr {
     }
 
     .main-works-title_block-list-item:nth-child(3) {
-        height: 15vh;
         align-items: flex-end;
         flex-wrap: wrap;
     }
 
     .main-works-title_block-list-item:nth-child(3) .main-works-title_block-list-item-description {
-        margin: 0;
+        margin: 0 0 0 1vh;
     }
 
     .main-works-main_block-description {
