@@ -467,8 +467,9 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-.main-footer-contact_us-contact-list-item_list:nth-child(4) li:nth-child(1n+1) {
+.main-footer-contact_us-contact-list-item_list:nth-child(4) li:nth-child(1n+1) a {
     color: #225A8E;
+    text-decoration: none;
 }
 
 .main-footer-contact_us-contact-list-item_list li span {
