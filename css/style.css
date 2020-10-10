@@ -74,7 +74,15 @@ body {
 
 .main-calculator {
     width: 45%;
+    display: flex;
     background: #1C82DB;
+    justify-content: center;
+    padding: 3% 0;
+}
+
+.order_iframe {
+    border-radius: 1vh;
+    height: inherit !important;
 }
 
 .main-rating {
