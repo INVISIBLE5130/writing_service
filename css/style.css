@@ -27,14 +27,8 @@ body {
     background-size: contain;
 }
 
-.main-row {
-    display: flex;
-    padding: 0 10%;
-    justify-content: space-between;
-}
-
 .main-text {
-    width: 45%;
+    width: 80%;
 }
 
 .main-text-title {
@@ -70,19 +64,6 @@ body {
     font-weight: 500;
     line-height: 30px;
     font-style: normal;
-}
-
-.main-calculator {
-    width: 45%;
-    display: flex;
-    background: #1C82DB;
-    justify-content: center;
-    padding: 3% 0;
-}
-
-.order_iframe {
-    border-radius: 1vh;
-    height: inherit !important;
 }
 
 .main-rating {
@@ -270,6 +251,10 @@ body {
     font-weight: 500;
     line-height: 23px;
     font-style: normal;
+}
+
+.main-works-title_block a {
+    margin-bottom: 2%;
 }
 
 .main-companion {
