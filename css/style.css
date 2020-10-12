@@ -581,6 +581,7 @@ hr {
     .main-rating {
         width: 80%;
         height: auto;
+        align-items: center;
         flex-direction: column;
     }
 
@@ -697,6 +698,7 @@ hr {
     .main-why_us-main_block-suits-block {
         width: auto;
         padding: 5%;
+        height: 35vh;
         margin: 1vh 0;
     }
 
@@ -709,7 +711,7 @@ hr {
     }
 
     .main-works-title_block-list {
-        padding: 1vh 2vh;
+        padding: 0 10%;
     }
 
     .main-works-title_block-list-item {
