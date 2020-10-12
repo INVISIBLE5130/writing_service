@@ -40,9 +40,9 @@
             </div>
         </div>
         <div class="main-calculator">
-            <iframe class="order_iframe" id="order_iframe"
+            <iframe class="order_iframe" id="order_iframe_1"
                     src="//www.paperhelp.org/order.html?pid=18808&amp;sub_id=6&amp;ubanner_off=0&amp;empty=1&amp;o_site=&amp;partner_site=creative"
-                    style="width: 90%; height: 993px; border: 0; visibility: visible;">
+                    style="width: 90%; border: 0; visibility: visible;">
             </iframe>
         </div>
     </div>
@@ -329,5 +329,18 @@
         </div>
     </div>
 </div>
+<script>
+    window.onload = function() {
+        let myiFrame = document.getElementById("order_iframe_2");
+        let doc = myiFrame.contentDocument;
+        doc.body.innerHTML = doc.body.innerHTML + '<style>.switch-spaced__block .switch div.active, .switch-spaced__block .button-group.active .button {\n' +
+            '    background: #357FD3 !important;\n' +
+            '}\n' +
+            '\n' +
+            '.input-group-datapicker:before {\n' +
+            '    background: #357FD3 !important;\n' +
+            '}</style>';
+    }
+</script>
 </body>
 </html>
