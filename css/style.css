@@ -14,8 +14,7 @@ body {
 }
 
 .main-header-logo {
-    margin: 2% 10% 0;
-    width: 5%;
+    width: 15%;
 }
 
 .main {
@@ -31,8 +30,8 @@ body {
 
 .main-row {
     display: flex;
-    height: 60vh;
-    padding: 0 10%;
+    height: 70vh;
+    padding: 5vh 10% 0;
     justify-content: space-between;
 }
 
@@ -68,28 +67,26 @@ body {
 }
 
 .main-calculator {
-    width: 45%;
+    padding: 3% 3% 2%;
     display: flex;
+    height: 460px;
+    width: 454px;
     background: #1C82DB;
+    align-items: flex-start;
     justify-content: center;
-    padding: 3% 0;
 }
 
-.order_iframe:nth-child(1) {
+#orderformph-new-2 {
+    width: max-content;
+    height: inherit;
+}
+
+#orderformph-new-2-iframe {
     border-radius: 1vh;
-    height: inherit !important;
 }
 
 #order_iframe_2 {
     height: 100vh !important;
-}
-
-.order_iframe .switch-spaced__block .switch div.active, .switch-spaced__block .button-group.active .button {
-    background: #357FD3 !important;
-}
-
-.order_iframe .input-group-datapicker:before {
-    background: #357FD3 !important;
 }
 
 .main-rating {
@@ -112,11 +109,11 @@ body {
 }
 
 .main-rating-block-icon {
-    width: 5vw;
+    width: 4.5vw;
 }
 
 .main-rating-block-rating {
-    width: 7vw;
+    width: 6vw;
 }
 
 .main-rating-block-rate {
@@ -130,7 +127,7 @@ body {
 .main-rating-block-rate-company_name {
     margin: 0;
     color: #22C2FC;
-    font-size: 1.5vw;
+    font-size: 1.25vw;
     font-weight: 500;
     line-height: 30px;
     font-style: normal;
@@ -140,7 +137,7 @@ body {
 .main-rating-block-rate_number {
     margin: auto;
     color: #0C537F;
-    font-size: 3vw;
+    font-size: 2.5vw;
     font-weight: 500;
     line-height: 81px;
     font-style: normal;
@@ -577,7 +574,7 @@ hr {
     margin-right: 5px;
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 1300px) {
     .main-rating {
         width: 80%;
         height: auto;
@@ -669,7 +666,14 @@ hr {
     .main-calculator {
         width: auto;
         height: 90vh;
+        padding: unset;
         margin-top: 10%;
+        background: unset;
+    }
+
+    #orderformph-new-2-iframe {
+        width: auto !important;
+        height: 100vh !important;
     }
 
     hr {

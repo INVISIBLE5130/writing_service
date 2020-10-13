@@ -11,16 +11,31 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet">
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script type="text/javascript">
+        var partner_id = 18808;
+        var sub_id = "8";
+        (function () {
+            var sc = document.createElement('script');
+            sc.type = 'text/javascript';
+            sc.async = true;
+            sc.src = 'https://www.edu-profit.com/orderformph-new2.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(sc, s);
+        })();
+    </script>
+
     <script type="text/javascript" src="https://www.paperhelp.org/public/partner_js/getUrlParametrs.js"></script>
     <script type="text/javascript" src="https://www.paperhelp.org/public/partner_js/partnerOF.js"></script>
 </head>
 <body>
 <div class="main">
-    <div id="top" class="main-header">
-        <img class="main-header-logo" src="img/logo.png" alt="Logo">
-    </div>
     <div class="main-row">
         <div class="main-text">
+            <div id="top" class="main-header">
+                <img class="main-header-logo" src="img/logo.png" alt="Logo">
+            </div>
             <h1 class="main-text-title">
                 Best Custom Easy Writing Service
                 <br>
@@ -40,10 +55,7 @@
             </div>
         </div>
         <div class="main-calculator">
-            <iframe class="order_iframe" id="order_iframe_1"
-                    src="//www.paperhelp.org/order.html?pid=18808&amp;sub_id=6&amp;ubanner_off=0&amp;empty=1&amp;o_site=&amp;partner_site=creative"
-                    style="width: 90%; border: 0; visibility: visible;">
-            </iframe>
+            <div id="orderformph-new-2"></div>
         </div>
     </div>
     <div class="main-rating">
@@ -165,7 +177,7 @@
         <div id="order" class="main-works-main_block">
             <iframe class="order_iframe" id="order_iframe_2"
                     src="//www.paperhelp.org/order.html?pid=18808&amp;sub_id=6&amp;ubanner_off=0&amp;empty=1&amp;o_site=&amp;new_design_of=3&amp;partner_site=creative"
-                    style="width: 90%; height: 993px; border: 0px; visibility: visible;">
+                    style="width: 90%; height: 993px; border: 0; visibility: visible;">
             </iframe>
         </div>
     </div>
@@ -331,15 +343,17 @@
 </div>
 <script>
     window.onload = function() {
-        let myiFrame = document.getElementById("order_iframe_2");
-        let doc = myiFrame.contentDocument;
-        doc.body.innerHTML = doc.body.innerHTML + '<style>.switch-spaced__block .switch div.active, .switch-spaced__block .button-group.active .button {\n' +
-            '    background: #357FD3 !important;\n' +
-            '}\n' +
-            '\n' +
-            '.input-group-datapicker:before {\n' +
-            '    background: #357FD3 !important;\n' +
-            '}</style>';
+        let iframe = document.getElementById('order_iframe_1').contentWindow.document.body;
+        console.log(iframe)
+        iframe.innerHTML = '<style>.order_iframe .switch-spaced__block .switch div.active, .switch-spaced__block .button-group.active .button {background: #357FD3 !important;}  .order_iframe .input-group-datapicker:before {background: #357FD3 !important;}</style>';
+        iframe.querySelector('.res-steps-container').style.display = 'none'
+        iframe.querySelector('#tabs-3').style.display = 'none'
+        iframe.querySelector('#_order_form').style.marginTop = '-150px'
+        iframe.querySelector('#_order_form').style.transform = 'scale(0.7)'
+        iframe.querySelector('.order-wrapper-container').style.display = 'none'
+        iframe.querySelector('.order-setep__wrapper').style.display = 'flex'
+        iframe.querySelector('.order-setep__wrapper').style.flexDirection = 'column'
+        iframe.querySelector('.order-setep__wrapper').style.alignItems = 'center'
     }
 </script>
 </body>
