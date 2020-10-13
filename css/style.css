@@ -675,6 +675,7 @@ hr {
     .main-text-title {
         width: auto;
         font-size: 9vw;
+        line-height: 9vw;
     }
 
     .main-text-description {
@@ -689,6 +690,7 @@ hr {
     .main-footer-contact_us-location-office,
     .main-text-description-comment {
         font-size: 4.5vw;
+        line-height: 4.5vw;
     }
 
     .main-why_us-main_block a {
@@ -702,6 +704,7 @@ hr {
     .main-footer-navbar-items li,
     .main-why_us-main_block-suits-block-description {
         font-size: 3.5vw;
+        line-height: 3.5vw;
     }
 
     .main-calculator {
@@ -729,6 +732,7 @@ hr {
     .main-why_us-title_block-title,
     .main-why_us-main_block-title {
         font-size: 6.5vw;
+        line-height: 6.5vw;
     }
 
     .main-why_us-main_block {
@@ -743,7 +747,7 @@ hr {
     .main-why_us-main_block-suits-block {
         width: auto;
         padding: 5%;
-        height: 35vh;
+        height: auto;
         margin: 1vh 0;
     }
 
@@ -761,6 +765,7 @@ hr {
 
     .main-works-title_block-list-item {
         font-size: 5vw;
+        line-height: 5vw;
     }
 
     .main-works-title_block-list-item:nth-child(3) {
@@ -789,6 +794,7 @@ hr {
     .main-footer-contact_us-contact-title,
     .main-companion-main_block-left-comment {
         font-size: 5.5vw;
+        line-height: 5.5vw;
     }
 
     .main-companion-main_block-left-rating {
