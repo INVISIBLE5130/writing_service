@@ -574,6 +574,31 @@ hr {
     margin-right: 5px;
 }
 
+.main-payments {
+    width: auto;
+    margin: 1vh 0 3vh;
+    display: flex;
+    align-self: flex-end;
+    justify-content: center;
+}
+
+.main-payments-method {
+    width: 5%;
+    margin-right: 5%;
+}
+
+.main-payments-method:nth-child(3) {
+    margin-right: 25%;
+}
+
+.main-payments-dmca {
+    width: 40%;
+}
+
+.main-payments-dmca img {
+    width: inherit;
+}
+
 @media screen and (min-width: 1024px) and (max-width: 1300px) {
     .main-text {
         height: max-content;

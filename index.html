@@ -339,10 +339,18 @@
                 </li>
             </ul>
         </div>
+        <div class="main-payments">
+            <img class="main-payments-method" src="img/visa.svg" alt="Visa">
+            <img class="main-payments-method" src="img/mastercard.svg" alt="Mastercard">
+            <img class="main-payments-method" src="img/american-express.svg" alt="American Express">
+            <div class="main-payments-dmca">
+                <img src="img/dmca_logo.png" alt="DMCA">
+            </div>
+        </div>
     </div>
 </div>
 <script>
-    window.onload = function() {
+    window.onload = function () {
         let iframe = document.getElementById('order_iframe_1').contentWindow.document.body;
         console.log(iframe)
         iframe.innerHTML = '<style>.order_iframe .switch-spaced__block .switch div.active, .switch-spaced__block .button-group.active .button {background: #357FD3 !important;}  .order_iframe .input-group-datapicker:before {background: #357FD3 !important;}</style>';
