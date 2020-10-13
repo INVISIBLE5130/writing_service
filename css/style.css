@@ -354,7 +354,7 @@ body {
 
 .main-companion-main_block-left-comment {
     color: #18214D;
-    font-size: 2vw;
+    font-size: 1.5vw;
     font-weight: 500;
     line-height: 60px;
     font-style: normal;
@@ -365,7 +365,9 @@ body {
 }
 
 .main-companion-main_block-left-buttons_left {
+    cursor: pointer;
     margin-right: 1vh;
+    width: max-content;
     transform: scale(-1, 1);
 }
 
