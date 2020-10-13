@@ -85,8 +85,8 @@ body {
     border-radius: 1vh;
 }
 
-#order_iframe_2 {
-    height: 100vh !important;
+#order_iframe {
+    width: 120% !important;
 }
 
 .main-rating {
@@ -574,7 +574,48 @@ hr {
     margin-right: 5px;
 }
 
-@media screen and (max-width: 1300px) {
+@media screen and (min-width: 1024px) and (max-width: 1300px) {
+    .main-text {
+        height: max-content;
+    }
+
+    .main-text-title {
+        line-height: 40px;
+    }
+
+    .main-row {
+        height: 60vh;
+    }
+
+    .main-calculator {
+        width: auto;
+        padding: 2% 2% 1%;
+        height: max-content;
+    }
+
+    #orderformph-new-2-iframe {
+        width: 354px !important;
+        height: 540px !important;
+    }
+
+    .main-rating {
+        width: 40%;
+        flex-wrap: wrap;
+        margin: 1% 0 9% 8%;
+        align-self: flex-start;
+        justify-content: center;
+    }
+
+    .main-rating-block:nth-child(odd) {
+        width: unset;
+    }
+
+    .main-rating-block {
+        width: 50% !important;
+    }
+}
+
+@media screen and (max-width: 1023px) {
     .main-rating {
         width: 80%;
         height: auto;
